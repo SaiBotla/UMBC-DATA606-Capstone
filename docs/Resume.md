@@ -43,7 +43,7 @@ satisfaction through effective communication and solution-oriented approaches.
 - **Master of Science in Data Science (MSDS)**, University of Maryland 
 Baltimore County
   - 2022 — 2024 
-   Pursuing Master's in Data Science with a current GPA of 3.71. 
+  - Pursuing Master's in Data Science with a current GPA of 3.71. 
 - **Bachelor of Technology (B.Tech) degree in Electronics and 
   Communication Engineering**, Godavari Institute of Engineering and 
   Technology,India
