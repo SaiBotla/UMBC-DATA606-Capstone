@@ -3,7 +3,7 @@
 
 - Email: saikeerthibotla1@gmail.com<br>
 - Phone: +1 (667) 380-3242<br>
-- LinkedIn: 
+- LinkedIn: http://www.linkedin.com/in/saikeerthibotla
 
 ## ABOUT ME:
 Seeking a challenging position as a Data Analyst in the IT 
