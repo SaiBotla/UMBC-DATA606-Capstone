@@ -48,5 +48,64 @@ Ted Main has 17 columns and 2550 records:
 2.URL (link to the Ted Talk)
 Data has 2464 Records.
 
+## 4. Text Preprocessing
+## Libraries Used
+
+- **NLTK (Natural Language Toolkit):** Utilized for tokenization, stop words removal, stemming, and lemmatization.
+- **scikit-learn's TfidfVectorizer:** Employed for TF-IDF (Term Frequency-Inverse Document Frequency) vectorization.
+- **Pandas:** Used for data manipulation and storage.
+
+##  Text Preprocessing Steps
+
+### 1. Tokenization
+
+Tokenization is the process of breaking down a text into individual words or tokens. In this script, the `word_tokenize` function from NLTK is used to tokenize each TED Talk transcript.
+
+### 2. Stop Words Removal
+
+Stop words, such as "the" and "is," are common words that often do not contribute significantly to the meaning of a text. The script employs NLTK's set of English stop words to filter out these less informative tokens.
+
+### 3. Stemming
+
+Stemming involves reducing words to their root or base form. The SnowballStemmer from NLTK is utilized to perform stemming on the remaining tokens, reducing inflected words to their root.
+
+### 4. Lemmatization
+
+Lemmatization is a more advanced form of word normalization that considers the context of words. The WordNetLemmatizer from NLTK is used to lemmatize the stemmed tokens, ensuring that words are reduced to their base or dictionary form.
+
+### 5. Joining Tokens
+
+The preprocessed tokens are then rejoined into a cohesive string, representing the cleaned and normalized version of the original TED Talk transcript.
+
+## Applying Text Preprocessing
+
+```python
+# Apply text preprocessing
+ted_data_df['processed_transcript'] = ted_data_df['transcript'].apply(preprocess_text)
+```
+
+The `preprocess_text` function is applied to each TED Talk transcript, generating a new column (`processed_transcript`) in the dataset containing the cleaned and normalized text.
+
+## Applying TF-IDF Vectorization
+
+```python
+# Apply TF-IDF vectorization
+tfidf_vectorizer = TfidfVectorizer()
+tfidf_matrix = tfidf_vectorizer.fit_transform(ted_data_df['processed_transcript'])
+```
+
+TF-IDF vectorization is employed to convert the preprocessed text into numerical features. This technique considers the importance of words in the context of the entire dataset, assigning higher weights to terms that are more unique across multiple documents.
+
+## Applying Word Embeddings
+
+```python
+# Apply word embeddings
+word_embeddings = pd.DataFrame(tfidf_matrix.toarray(), columns=tfidf_vectorizer.get_feature_names_out())
+```
+
+The resulting TF-IDF matrix is transformed into word embeddings, which are stored in a Pandas DataFrame. Each column in the DataFrame corresponds to a unique feature, representing the importance of specific terms in the TED Talk transcripts.
+
+This comprehensive text preprocessing pipeline prepares the data for further analysis, modeling, or exploration in the field of natural language processing. The resulting word embeddings capture the essential semantic information within the TED Talk transcripts.
+
 ## Expected Outcome: 
 The proposed recommendation system will enable users to discover TED Talks that match their interests and preferences. The system will provide accurate and personalized recommendations using machine learning algorithms. The project will contribute to the development of intelligent systems that can learn from user interactions and make personalized recommendations.
