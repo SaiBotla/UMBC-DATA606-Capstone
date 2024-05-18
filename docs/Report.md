@@ -5,7 +5,7 @@
 - Author Name: SAI KEERTHI BOTLA
 - LinkedIn: [http://www.linkedin.com/in/saikeerthibotla)
 - GitHub: [https://github.com/SaiBotla)
-- Presentation PPT:docs/Capstone.PPTX
+- Presentation File:https://github.com/SaiBotla/UMBC-DATA606-Capstone/blob/9a59015fc42f5ef53876449d0dc97b537ce768a3/docs/Capstone.PPTX
 - YouTube Link: https://youtu.be/saM_3B9TWOM?si=UAHFAe11a9Af9NOb
 
     
