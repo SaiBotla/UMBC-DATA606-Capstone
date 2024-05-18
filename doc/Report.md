@@ -5,7 +5,7 @@
 - Author Name: SAI KEERTHI BOTLA
 - LinkedIn: [http://www.linkedin.com/in/saikeerthibotla)
 - GitHub: [https://github.com/SaiBotla)
-- Project Vedio:
+- YouTube Link: https://youtu.be/saM_3B9TWOM?si=UAHFAe11a9Af9NOb
 
     
 ## 2. Background
@@ -167,3 +167,6 @@ This comprehensive text preprocessing pipeline prepares the data for further ana
 
 ## Evaluation
 The evaluation of the collaborative filtering approach is discussed, providing insights into the effectiveness of the recommendation system.
+
+## Future Goal:
+The future goals of the project include improving recommendation accuracy, enhancing the user interface, implementing advanced personalization techniques, incorporating a feedback loop, integrating with other platforms, optimizing performance, utilizing collaborative filtering, and exploring new data sources. These goals aim to enhance the effectiveness and usability of the recommendation system, providing users with a more personalized and engaging experience when exploring TED Talks.
