@@ -3,6 +3,7 @@
 - Developing a Machine Learning-based Recommendation System for TED Talks
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - Author Name: SAI KEERTHI BOTLA
+- Semester:Fourth semester (final semester )
 - LinkedIn: [http://www.linkedin.com/in/saikeerthibotla)
 - GitHub: [https://github.com/SaiBotla)
 - Presentation File:https://github.com/SaiBotla/UMBC-DATA606-Capstone/blob/9a59015fc42f5ef53876449d0dc97b537ce768a3/docs/Capstone.PPTX
