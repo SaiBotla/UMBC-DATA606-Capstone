@@ -5,7 +5,7 @@
 - Author Name: SAI KEERTHI BOTLA
 - LinkedIn: [http://www.linkedin.com/in/saikeerthibotla)
 - GitHub: [https://github.com/SaiBotla)
-- Link to your PowerPoint presentation file
+- YouTube Link: https://youtu.be/saM_3B9TWOM?si=UAHFAe11a9Af9NOb
     
 ## 2. Background
 
@@ -109,3 +109,6 @@ This comprehensive text preprocessing pipeline prepares the data for further ana
 
 ## Expected Outcome: 
 The proposed recommendation system will enable users to discover TED Talks that match their interests and preferences. The system will provide accurate and personalized recommendations using machine learning algorithms. The project will contribute to the development of intelligent systems that can learn from user interactions and make personalized recommendations.
+
+## Future Goal:
+The future goals of the project include improving recommendation accuracy, enhancing the user interface, implementing advanced personalization techniques, incorporating a feedback loop, integrating with other platforms, optimizing performance, utilizing collaborative filtering, and exploring new data sources. These goals aim to enhance the effectiveness and usability of the recommendation system, providing users with a more personalized and engaging experience when exploring TED Talks.
